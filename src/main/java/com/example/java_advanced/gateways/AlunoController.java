@@ -17,6 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AlunoController {
 
+
     private final ConcatIdToAlunoService concatIdToAlunoService;
     private final ListAlunosService listAlunosService;
     private final AlunoDataServiceInterface createAlunoService;
